@@ -22,3 +22,7 @@ or
 ```
 mocha 
 ```
+
+
+####Master branch build status: 
+![](https://travis-ci.org/[anoopmundathan]/MovingHelper.svg?branch=master)
