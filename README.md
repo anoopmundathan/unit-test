@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/anoopmundathan/unit-test.svg?branch=master)](https://travis-ci.org/anoopmundathan/unit-test)
+
 # unit-test
 Behavior Driven Development Example - Write unit tests for functions with the JavaScript testing framework Mocha.js.
 
@@ -24,5 +26,3 @@ mocha
 ```
 
 
-####Master branch build status: 
-![](https://travis-ci.org/[anoopmundathan]/MovingHelper.svg?branch=master)
