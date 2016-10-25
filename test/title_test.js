@@ -10,4 +10,8 @@ describe('Mocha', function () {
 		expect(title.titleCase('the great expectation')).to.equal('The Great Expectation');
 	});
 
+	it('It should be true', function () {
+		expect(true).to.equal(false);
+	});
+
 });
