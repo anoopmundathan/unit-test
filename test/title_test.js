@@ -13,6 +13,7 @@ describe('Mocha', function () {
 
 	it('It should be true', function () {
 		expect(true).to.equal(true);
+		expect(true).to.be(true);
 	});
 
 });
