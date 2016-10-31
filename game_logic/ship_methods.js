@@ -6,11 +6,26 @@ function checkForShip(player, cordinates) {
             return (actualCordinate[0] === cordinates[0]) && (actualCordinate[1] === cordinates[1]);
         })[0];
 
-        if(!shipPresent) {
-            return false;
-        } else {
-            return true;
+        if(shipPresent) {
+            return ship;
         }
     }
+    return false;
 }
+
+function damageShip(ship, cordinates) {
+    ship.damage.push(cordinates);
+}
+
+function fire(player, cordinates) {
+    var ship = checkForShip(player, cordinates);
+
+    if (ship) {
+        damageShip(ship, cordinates);
+    }
+
+}
+
 module.exports.checkForShip = checkForShip;
+module.exports.damageShip = damageShip;
+module.exports.fire = fire;
